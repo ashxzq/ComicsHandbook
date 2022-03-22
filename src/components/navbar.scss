@@ -1,0 +1,87 @@
+$marvelred: #F0131E;
+$marvelblack: black;
+
+.navbar {
+    background-color: $marvelblack;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    left: 0;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-align: center;
+    height: 100px;
+    z-index: 20;
+
+    .navContent {
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .navButtons {
+        float:right;
+        color:white;
+        padding-right: 20px;
+    }
+
+    .logo {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .logo #marvellogo {
+        height: 60px;
+        letter-spacing: 2px;
+        font-size: 3rem;
+        float: left;
+        color: $marvelred;
+        padding-left: 25px;
+        position: relative;
+        padding-top: 3px;
+    }
+
+    .logo #headerlogo {
+        //letter-spacing: 2px;
+        font-size: 1.8rem;
+        font-style: bold;
+        float: left;
+        color: white;
+        padding-left: 10px;
+        position: relative;
+        padding-top: 15px
+    }
+
+    ul {
+        justify-content: right;
+    }
+
+    li {
+        //height: 80px;
+        display: block;
+        width: 120px;
+        float: left;
+        margin-left: 2px;
+        color:white;
+        text-align: center;
+        font-size: 1.5rem;
+
+        a {
+            color:white;
+            text-decoration: none;
+        }
+        
+        .active {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+    
+    li:hover {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}

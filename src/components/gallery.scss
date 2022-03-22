@@ -1,0 +1,49 @@
+.gallerybody {
+    height: 1500px;
+    padding-top: 100px;
+    overflow: hidden;
+    background-color: #cfcfcf;
+    box-shadow: #cfcfcf;
+    justify-content: center;
+    .filters {
+        h2 {
+            color: #504A4A;
+        }
+        select {
+           width: 80%; 
+           height: 50px;
+           text-align: center;
+           font-size: 1.5rem;
+           border: none;
+           color: #504A4A;
+           box-shadow: #cfcfcf;
+           justify-content: center;
+        }
+    }
+
+    .cards {
+        background-color: white;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20px;
+        overflow: hidden;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
+        padding-left: 40px;
+
+        .cardholder { 
+            justify-content: center;
+            padding-left: 10px;
+            .GalleryCard {
+                float: left;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                justify-content: center;
+            }
+        }
+    }
+}

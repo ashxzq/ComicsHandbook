@@ -1,0 +1,64 @@
+$marvelgrey : #504A4A;
+$lightgrey : #cfcfcf;
+
+.detailbody{
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    background-color: $lightgrey;
+
+    .buttons {
+        padding-bottom: 10px;
+        padding-top: 20px;
+        a {
+            text-decoration: none;
+            color: $marvelgrey;
+            font-weight: bold;
+        }
+        .left {
+            padding-left: 30px;
+            float: left;
+            font-size: 1.2rem;
+        }
+        .right {
+            padding-right: 30px;
+            float: right;
+            font-size: 1.2rem;
+        }
+    }
+
+    img {
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    .comicdetails {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 40px;
+        h3 {
+            padding-top: 10px;
+            color: $marvelgrey;
+            text-align: center;
+        }
+        .format {
+            font-weight: bold;
+            color: $marvelgrey;
+        }
+        .price {
+            font-weight: bold;
+            color: $marvelgrey;
+        }
+
+        text-align: left;
+        .p1{
+            font-weight: bold;
+            color: $marvelgrey;
+        }
+        .p2 {
+            color: $marvelgrey;
+        }        
+    }
+
+}

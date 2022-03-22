@@ -1,0 +1,48 @@
+.SearchCard {
+    display: flex;
+    // margin-left: 10%;
+    // margin-right: 10%;
+    padding-left: 5%;
+    padding-bottom: 20px;
+    background-color: #cfcfcf;
+    border-bottom: solid;
+    border-color: #504A4A;
+    padding-top: 10px;
+    height: 160px;
+    margin-top: 0;
+    a {
+        color: #504A4A;
+    }
+    .image {
+        float: left;
+    }
+    .details {
+        padding-top: 40px;
+        float: left;
+        padding-left: 30px;
+        text-align: left;
+
+        h3 {
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+    }
+
+    ::hoover {
+        background-color: grey;
+    }
+}
+
+.SearchCard:hover{
+    background-color: white;
+    height: 200px;
+    .image {
+        padding-top: 20px;
+    }
+    .details {
+        padding-top: 60px;
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+}
